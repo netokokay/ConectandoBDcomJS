@@ -7,17 +7,6 @@ const cliente = new Client({
     database: "teste"
 })
 
-/*
-cliente.connect()
-cliente.query("select * from clientes")
-.then(results => {
-    const resultado = results.rows
-    console.table(resultado)
-    console.log("Conexão efetuada com sucesso")
-})
-.finally(() => cliente.end())
-*/
-
 getClientes()
 
 async function getClientes(){
